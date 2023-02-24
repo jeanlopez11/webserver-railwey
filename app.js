@@ -17,7 +17,7 @@ app.get('/',  (req, res) => {
 //renderizando cliente:   res.send('Hello World');
 //renderizando en el servidor con hbs;
     res.render('home', {
-        nombre: 'Jean'
+        nombre: 'Example'
     });
 });
 app.get('/generic',  (req, res) => {
